@@ -1,4 +1,4 @@
-# Kyphosis_Disease_Prediction using simple Neural Network model and XGBoost model
+# Kyphosis_Disease_Prediction using Fully Connected Neural Networks (FCNNs) model and XGBoost model
 **Project Summary:**
 In the "Kyphosis disease prediction and Imbalanced Data Handling" project, the objective was to develop a predictive model to identify the presence or absence of kyphosis, a medical condition. The dataset used in the project, named "Kyphosis.csv," contained imbalanced data, making it challenging to build an accurate model. The project's workflow can be summarized as follows:
 
@@ -24,7 +24,7 @@ In the "Kyphosis disease prediction and Imbalanced Data Handling" project, the o
 
 --> Two different models were considered for classification:
 
-----> A Simple Neural Network (NN) model built using PyTorch.
+----> A Fully Connected Neural Networks (FCNNs) model built from scratch using PyTorch.
 
 ----> An XGBoost model with hyperparameter tuning using GridSearchCV.
 
@@ -40,6 +40,6 @@ In the "Kyphosis disease prediction and Imbalanced Data Handling" project, the o
 
 **7. Model Comparison:**
 
---> The project concluded with the finding that the XGBoost model outperformed the Simple Neural Network model, achieving an accuracy of **0.96**. In contrast, the NN model achieved an accuracy of **0.85**.
+--> The project concluded with the finding that the XGBoost model outperformed the Fully Connected Neural Network model, achieving an accuracy of **0.96**. In contrast, the FCNN model achieved an accuracy of **0.85**.
 
-The project aimed to demonstrate the process of handling imbalanced data, performing binary classification using machine learning(XGBoost with GridSearchCV) and deep learning(Simple Neural Network) models, and selecting the best-performing model for predicting kyphosis in a medical context.
+The project aimed to demonstrate the process of handling imbalanced data, performing binary classification using machine learning (XGBoost with GridSearchCV) and deep learning (Fully Connected Neural Network) models, and selecting the best-performing model for predicting kyphosis in a medical context.
